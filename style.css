@@ -1,6 +1,101 @@
 body{
     background-color: rgb(199, 149, 245);
-    color: aliceblue;
+    color: rgb(222, 122, 252);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
 
+main{ 
+    max-width: 640px;
+    margin: 32px auto;
+    padding: 24px;
+    background: rgb(185, 111, 219);
+    border-left: 6px solid #8b09af;
+}
+
+h1{
+     margin-top: 0;
+}
+
+h2{
+     font-size: 1.2rem;
+     margin-top: 32px;
+}
+
+nav{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+}
+
+button, input {
+    font: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 8px 12px;
+}
+
+button {
+    background: #8b09af;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #980cc3;
+}
+
+nav button {
+    background: #b694bf;
+    color: aliceblue;
+}
+
+nav button.ativo {
+    background: #520769;
+    color: white;
+}
+li {
+    padding: 4px 0;
+}
+
+li button {
+    margin-left: 8px;
+    padding: 2px 8px;
+    font-size: 13px;
+    background: #6e2f81;
+}
+
+.linha {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin: 8px 0;
+}
+
+/* Classe ligada e desligada pelo JavaScript */
+.destaque {
+    background: #b959d6;
+    padding: 4 px 8px;
+}
+
+/* Modo escuro: o JavaScript coloca esta classe no <body> */
+body.escuro {
+    background: #2b0237;
+    color: #b959d6;
+}
+
+body.escuro main {
+    background: #2b0237;
+}
+
+/* Só a "página" com classe .visivel aparece */
+.pagina {
+    display: none;
+}
+
+.pagina.visivel {
+    display: block;
 }

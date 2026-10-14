@@ -1,5 +1,4 @@
 // DEMOSTRAÇÃO DO DOM
-
 console.log("script.js carregado!");
 
 // 1. TROCAR DE "PÁGINA"
@@ -17,20 +16,21 @@ botoesMenu.forEach((botao) => {
         botoesMenu.forEach((b) => b.classList.remove("ativo"));
 
         //Mostra só a pagina e tira o destaque de todos os botões
-        document.querySelector('#' + idDaPagina).classList.add("visivel");
+        document.querySelector("#" + idDaPagina).classList.add("visivel");
         botao.classList.add("ativo");
 
         console.log("Mostrando a página:", idDaPagina);
      });
 });
+
 //2. ALTERAR TEXTO E ESTILO
-const titulo =document.querySelector("#titulo");
+const titulo = document.querySelector("#titulo");
 const paragrafos = document.querySelectorAll(".texto");
 
 //Mudar o texto e a cor do título
 document.querySelector("#btn-mudar-titulo").addEventListener("click", () => {
     titulo.textContent = "Título mudando pelo JavaScript!";
-    titulo.style.color = "#d233fa";
+    titulo.style.color = "#921bc1";
 });
 
 //Passa todos os paragrafos para maiusculos
