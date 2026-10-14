@@ -1,6 +1,6 @@
 body{
-    background-color: rgb(199, 149, 245);
-    color: rgb(222, 122, 252);
+    background-color: rgb(116, 72, 157);
+    color: rgb(166, 36, 230);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     line-height: 1.6;
@@ -10,8 +10,8 @@ main{
     max-width: 640px;
     margin: 32px auto;
     padding: 24px;
-    background: rgb(185, 111, 219);
-    border-left: 6px solid #8b09af;
+    background: rgb(170, 64, 246);
+    border-left: 6px solid #882cce;
 }
 
 h1{
@@ -32,7 +32,7 @@ nav{
 
 button, input {
     font: inherit;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
     padding: 8px 12px;
 }
@@ -54,7 +54,7 @@ nav button {
 }
 
 nav button.ativo {
-    background: #520769;
+    background: #600a7a;
     color: white;
 }
 li {
@@ -83,12 +83,12 @@ li button {
 
 /* Modo escuro: o JavaScript coloca esta classe no <body> */
 body.escuro {
-    background: #2b0237;
-    color: #b959d6;
+    background: #4f0864;
+    color: #f4f3f5;
 }
 
 body.escuro main {
-    background: #2b0237;
+    background: #0b0657;
 }
 
 /* Só a "página" com classe .visivel aparece */
